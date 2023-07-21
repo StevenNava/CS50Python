@@ -39,5 +39,5 @@ print(f'hello, {name}!')
 # Functions can be chained if you want / need
 name = name.strip().title()
 # or even in the input before assigning to the variable
-name = input("What is your name? ").strip().title() # this will pass the input into strip and then that output 
+# name = input("What is your name? ").strip().title() # this will pass the input into strip and then that output 
                                                     # into the title function
