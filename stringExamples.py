@@ -41,3 +41,9 @@ name = name.strip().title()
 # or even in the input before assigning to the variable
 name = input("What is your name? ").strip().title() # this will pass the input into strip and then that output 
                                                     # into the title function
+
+firstName, lastName = name.strip().split(' ') # this will split the name into two parts (if there is one space in between them)
+                                              # and assign the first part to variable firstName and the second part to variable 
+                                              # lastName
+
+print(f"Hello {firstName} with the last name of {lastName}!")
